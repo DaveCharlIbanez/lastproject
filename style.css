@@ -1,0 +1,427 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    width: 100%;    
+    background-color: aquamarine;
+    background-image: url(background.png);
+    font-size: 16px;
+    background-size: 90px;
+}
+h1{
+    font-size: 2rem;
+}
+border{
+    size: 2rem;
+}
+   
+
+
+/* Header Section */
+.header {
+    color: blanchedalmond;
+    font-size: 20px;
+    padding: 10px 20px;
+    width: 100%;
+    border-bottom: 3px solid black;
+    background-color: black;
+    box-sizing: border-box;
+    flex-shrink: 5; 
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: auto;
+    color: aqua;
+}
+
+/* List Items and Links */
+ul, li, a {
+    text-decoration: none;
+    display: flex;
+    margin: 20px;
+    padding-left: 40px;
+    color: blanchedalmond;
+    flex-shrink: 1;
+    gap: 10;
+    align-items: flex-start;
+    
+
+
+}
+
+ul, li, a:hover {
+    color: rgb(0, 204, 255);
+}
+
+/* Home Section */
+.home {
+    margin: 5px auto 1000px;
+    font-size: 20px;
+    
+    text-align: center;
+    padding-top: 1px auto 1000px;
+    padding: 350px;
+    
+}
+
+/* Image Styles */
+.pics {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+    background-color: transparent;
+}
+
+.imges {
+    width: 150px;
+    height: 150px;
+    background-image: url('dave.png.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Photos Section */
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+
+
+.dave {
+    width: 400px;
+    height: 400px;
+    background-image: url('dave.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 3px solid #000;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.dave:hover{
+    width: 200px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+
+.introducing {
+    width: 300px;
+    padding: 20px;
+    font-size: 10px;
+    color: #077b07;
+    text-align: center;
+    background-color: #f0f0f0;
+    border: 2px solid #077b07;
+    box-sizing: border-box; 
+    margin-right: 50px;
+    margin-left: 50px;
+    
+}
+
+
+/* New Picture Section */
+.newpic {
+    margin: 0px auto 1000px;
+    font-size: 20px;
+    color: #077b07;
+    text-align: center;
+    max-width: 100%;
+    padding-bottom: 100px; 
+    border-width: 100%;
+    padding: 12px;
+    margin-bottom: 60px;
+    background-color: grey;
+    border: 1px solid grey;
+
+}
+
+/* Contest Section */
+.contest {
+    margin: 1px;
+    font-size: 20px;
+    border: #000;
+    text-align: center;
+    margin-top: 300px;
+    font-display: flex;
+    
+}
+
+.name {
+    color: #000;
+    font-size: larger;
+    font-style: oblique;
+    
+}
+.about{
+    color: blanchedalmond;
+    font-size: 1px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    flex-shrink: 1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-shrink: 1;
+    justify-content: space-evenly;
+    
+    
+}
+.skillhead{
+
+    color: blanchedalmond;
+    font-size: 20px;
+    padding: 10px ;
+    width: 30%;
+    border-bottom: 4px solid black;
+    background-color: grey;
+    box-sizing: border-box;
+    flex-shrink: 1;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 300px;
+    border-radius: 10px;
+    
+}
+.python{
+    
+    width: 150px ;
+    margin-right: 1px;
+    margin-top: 50px;
+}
+.python:hover{
+    box-shadow: 0px 0px 7px 4px rgb(0, 255, 255, 0.6);
+    background-color: wheat;
+    
+}
+.wireshark {
+    
+    width: 150px ;
+    margin-left: 1px;
+    margin-top: 1px;
+}
+.wireshark:hover{ 
+    box-shadow: 0px 0px 7px 4px rgb(0, 255, 255, 0.6);
+    background-color: wheat;
+}
+.github{
+   
+    width: 150px ;
+    margin-left: 1px;
+    margin-top: 1px;
+}
+.github:hover{
+    box-shadow: 0px 0px 7px 4px rgb(0, 255, 255, 0.6);
+    background-color:wheat;
+}
+.csharp{
+    
+    width: 150px ;
+    margin-left: 1px;
+    margin-top: 1px;
+    
+}
+.csharp:hover{
+    box-shadow: 0px 0px 7px 4px rgb(0, 255, 255, 0.6);
+    background-color:wheat;
+    
+}
+.title{
+    font-size: 20px;
+    color: blanchedalmond;
+    background-color: grey;
+    width: 30%;
+    margin-left: 200px;
+    padding: 10px;
+    border-bottom: 4px auto#000;
+    border-radius: 10px;
+
+}
+.facebook{
+    width: 60px;
+    margin-left: 15;
+    align-items: flex-start;
+    
+    
+    
+    
+}
+.new:hover{
+    color: aqua;
+}
+.gmail{
+    width: 60px;
+    margin-left: 15;
+    align-items: flex-start;
+   
+}
+.datcom:hover{
+    color:aqua;
+}
+.new{
+    margin: 5px;
+    color: rgb(212, 185, 185);
+    flex-shrink: 1;
+    
+}
+.datcom{
+    margin: 5px;
+    color: rgb(247, 242, 242);
+    flex-shrink: 5;
+}
+.pics{
+    border: 4px black;
+}
+.footer{
+    color: #d3cdcd;
+    
+}
+
+.hobby{
+    color: blanchedalmond;
+    font-size: 20px;
+    width: 20%;
+    border-bottom: 4px solid black;
+    background-color: grey;
+    flex-shrink: 1;
+   
+}
+
+.container{
+    position: relative;
+}
+.wrapper{
+    width: 40vw;
+    height: 130vh;
+    left: auto;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.6);
+    margin: 5rem auto;
+    overflow: hidden;
+    box-shadow: red ;
+    flex-shrink: 10;
+}
+.wrapper-holder{
+    display: grid;
+    grid-template-columns: repeat(4, 100%);
+    height: 100%;
+    width: 100%;
+    animation: slider 30s ease-in-out infinite alternate;
+}
+.container #slider-img1{
+    background-image: url(drawing.jpg);
+    background-color: red;
+    background-position: center;
+    align-items: last baseline;
+    background-repeat: no-repeat;
+    flex-shrink: 1;
+    
+
+}
+.container #slider-img2{
+    background-image: url(gitara.jpeg.jpg);
+    background-color: red;  
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: last baseline;
+    width: 100%;
+    height: 100%;
+    flex-shrink: 1;
+    
+
+}
+.container #slider-img3{
+    background-image: url(badmiton.jpeg.jpg);
+    background-color: red;  
+    background-position: center;
+    align-items: last baseline;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    flex-shrink: 1;
+    
+
+}
+.container #slider-img4{
+    background-image: url(ml.jpg);
+    background-color: red;  
+    background-position: center;
+    align-items: last baseline;
+    background-repeat: no-repeat;
+    flex-shrink: 1;
+    
+
+}
+
+
+.button{
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    display: inline-block;
+    margin: .3rem ;
+}
+.button-holder{
+   position: absolute;
+   left: 40%;
+
+}
+.button:hover{
+    box-shadow: 0px 0px 7px 4px rgb(0, 255, 255, 0.6);
+}
+@keyframes slider{
+    0%{transform: translateX(0%);}
+    10%{transform: translateX(-100%);}
+    20%{transform: translateX(-100%);}
+    30%{transform: translateX(-200%);}
+    40%{transform: translateX(-200%);}
+    50%{transform: translateX(-200%);}
+    60%{transform: translateX(-300%);}
+    70%{transform: translateX(-300%);}
+    80%{transform: translateX(-300%);}
+    90%{transform: translateX(0%);}
+    100%{transform: translateX(0%);}
+}
+.nav-hobby{
+    font-size: 20px;
+    color: blanchedalmond;
+    background-color: grey;
+    width: 10%;
+    margin-left: 400px;
+    padding: 20px;
+    align-items: center;
+    margin-left: 550px;
+    margin-top: 300px;  
+    padding-left: 40px;
+    border-radius: 10px;
+    
+}
+.fb:hover{
+    color: aqua;
+}
+.tab{
+    margin: auto;
+    
+}
+.container{
+    padding: 10px;
+}
+@media(mid-width: 768px){
+    .container{
+        padding: 20px;
+    }
+}
+.item{
+    flex: 1 1 300px;
+}
